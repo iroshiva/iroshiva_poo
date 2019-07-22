@@ -1,9 +1,10 @@
 require "pry"
 
 class User
+# class générale User
 	
-	attr_accessor :email
-	attr_accessor :age
+	attr_accessor :email, :age
+	# initiation 
 	@@all_users = [] 
 
 
