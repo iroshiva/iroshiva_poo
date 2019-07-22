@@ -6,6 +6,7 @@
 
 
 #def Class 
+
     #Pour définir une classe, tu écris dans ton code class NomDeTaClasse (CamelCase obligé sur les class en Ruby) que tu termines avec un end
    
 
@@ -35,7 +36,7 @@
 
 
 
-##def method_d'instance(+/- variable(s))
+#def method_d'instance(+/- variable(s))
 
     # == METHODE D'INSTANCE
     # TOUTES LES ACTIONS ANNEXES À EFFECTUER SUR LES VARIABLES D'INSTANCE  
@@ -58,6 +59,7 @@
 #end
 
 #binding.pry
+
 #puts "end of file"
 
     #si on veut utiliser gem 'pry'
