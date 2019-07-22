@@ -10,10 +10,16 @@ class User
 	def initialize(email_to_save, age_to_save)
 		@email = email_to_save
 		@age = age_to_save.to_s
-		@@all_users << @email + ", " + @age
+		@@all_users << self
 		
 	end
 	# attribution de deux variables d'instance à l'instance user
+
+	def self.find_by_email(email)
+
+		@@all_users.select { |user| user.email == email}[0].email
+	
+	end
 
 	def self.all
 		return @@all_users
@@ -21,8 +27,8 @@ class User
 
 end
 
-binding.pry
-puts "end of file"
+# binding.pry
+# puts "end of file"
 
 
 # user = User.new 
