@@ -35,7 +35,7 @@
 
 
 
-#def method_d'instance(+/- variable(s))
+##def method_d'instance(+/- variable(s))
 
     # == METHODE D'INSTANCE
     # TOUTES LES ACTIONS ANNEXES À EFFECTUER SUR LES VARIABLES D'INSTANCE  
@@ -52,15 +52,18 @@
     #ex : compter == .count   tout afficher == .all
 
 #return @@variable de class
+
 #end
 
 #end
 
 #binding.pry
 #puts "end of file"
+
     #si on veut utiliser gem 'pry'
 
 #instance = Class.new(variable(s) d'instance)
+
     # création de l'instance de la class Class
     # == exemplaire unique de la "représentation générale" de la classe Class
     # == OBJET !!!!!!!
